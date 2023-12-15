@@ -78,6 +78,10 @@ align-items: center;
     min-height: 150px;
     align-content: start;
     background-color: whitesmoke;
+    padding-top: 82px;
+    padding-bottom: 120px;
+    padding-left: 120px;
+    padding-right: 120px;
     /* margin-top: 0;
     margin-bottom: 0;
     grid-auto-columns: 1fr; */
