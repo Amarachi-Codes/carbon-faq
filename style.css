@@ -196,4 +196,8 @@ border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0 128px;
+}
+.footer-socials .socials a{
+    padding: 0 48px;
 }
