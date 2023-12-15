@@ -192,3 +192,8 @@ border-radius: 4px;
     font-size: small;
  
 }
+.footer-socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
