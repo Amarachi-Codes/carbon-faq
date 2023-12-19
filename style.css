@@ -252,6 +252,9 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     .sun-nav{
         display: none;
     }
+    .nav-container{
+        padding: 0 12px;
+    }
     .nav-container .nav-end {
         
         display: none;
@@ -278,5 +281,6 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     }
     .bi-list{
         color: #fff;
+        font-size: 30px;
     }
 }
