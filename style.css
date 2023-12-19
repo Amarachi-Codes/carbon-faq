@@ -295,4 +295,14 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
         padding: 2px;
         border-radius: 8px;
     }
+    .faq-item {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .faq-hero .container h2 {
+        font-size: medium;
+        line-height: 2rem;
+        padding: 60px 45px;
+    }
 }
