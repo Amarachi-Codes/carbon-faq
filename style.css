@@ -248,6 +248,10 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     .sidebar{
         display: block;
     }
+    .sidebar ul li a{
+        text-decoration: none;
+        padding: 0 10px;
+    }
     .nav-container .logo {
         padding: 0 8px;
     }
