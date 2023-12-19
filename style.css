@@ -57,9 +57,10 @@ padding: 20px;
     width: 100vw;
     z-index: 1;
     background-color: white;
-    margin-top: 70px;
+    margin-top: 65px;
     transform: translateX(-100vw);
     transition: 0.2s ease-in-out; 
+    border-right: 1px solid gainsboro;
 }
 .show{
     transform: translateX(0);
