@@ -49,6 +49,17 @@ padding: 20px;
 }
 .sidebar{
     display: none;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    text-align: center;
+    padding-top: 100px;
+    width: 100vw;
+    z-index: 1;
+    background-color: white;
+    margin-top: 70px;
+    transform: translateX(-100vw);
+    transition: 0.2s ease-in-out; 
 }
 .nav-container .nav-end a{
     padding: 0 16px;
@@ -248,9 +259,15 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     .sidebar{
         display: block;
     }
+    .sidebar ul li{
+        padding: 10px 4px;
+        font-size: small;
+        
+    }
     .sidebar ul li a{
         text-decoration: none;
         padding: 0 10px;
+        color: grey;
     }
     .nav-container .logo {
         padding: 0 8px;
