@@ -330,4 +330,17 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     display: grid;
     padding: 60px 40px;
 }
+.footer-socials {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 30px;
+}
+.socials{
+    display: grid;
+    grid-template-columns: repeat(6,22px);
+}
+.footer-legal {
+    padding: 32px 30px;
+}
 }
