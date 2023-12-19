@@ -324,4 +324,10 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     font-size: small;
 
 }
+.footer .footer-wrapper {
+    gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    padding: 60px 40px;
+}
 }
