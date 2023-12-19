@@ -299,10 +299,29 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
         padding-left: 20px;
         padding-right: 20px;
         grid-template-columns: repeat(1,1fr);
+        padding-bottom: 40px;
     }
     .faq-hero .container h2 {
         font-size: medium;
         line-height: 2rem;
         padding: 60px 45px;
     }
+    .help-center {
+        
+        margin: 40px 20px 80px 20px;
+        padding: 40px 0px;
+    }
+
+.help-center .help-wrapper h2 {
+    font-size: medium;
+    font-weight: bold;
+    line-height: 1.5rem;
+    color: #2c1762;
+    margin-bottom: 30px;
+}
+.help-center .help-wrapper button {
+    padding: 14px 20px;
+    font-size: small;
+
+}
 }
