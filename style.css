@@ -248,4 +248,14 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     .sidebar{
         display: block;
     }
+    .nav-container .logo {
+        padding: 0 8px;
+    }
+    .carbon-main-logo-2 {
+        width: 100px;
+        padding: 20px 0px;
+    }
+    .bi-list{
+        color: #fff;
+    }
 }
