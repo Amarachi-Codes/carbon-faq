@@ -47,6 +47,9 @@ padding: 20px;
 .nav-container .nav-end{
     padding-right: 60px;
 }
+.sidebar{
+    display: none;
+}
 .nav-container .nav-end a{
     padding: 0 16px;
     text-decoration: none;
@@ -232,4 +235,17 @@ background: linear-gradient(90deg, rgba(88,26,103,1) 35%, rgba(230,17,115,1) 100
     color: #fff;
     line-height: 1.4rem;
     padding-bottom: 36px;
+}
+
+@media screen and (max-width:530px) {
+    .sun-nav{
+        display: none;
+    }
+    .nav-container .nav-end {
+        
+        display: none;
+    }
+    .sidebar{
+        display: block;
+    }
 }
